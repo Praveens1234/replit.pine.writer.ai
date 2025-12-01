@@ -1,3 +1,27 @@
+Terminal Commands to Run Pine Forge
+1️⃣ Setup (Run Once)
+# Install Python dependencies
+pip install -r requirements.txt
+# Install Node.js dependencies
+npm install
+
+2️⃣ Start the App (Open TWO Terminal Tabs)
+Terminal Tab 1 - Flask Backend (Port 8000):
+
+python api.py
+
+Terminal Tab 2 - React Frontend (Port 5000):
+
+npm run dev
+
+3️⃣ Access the App
+When both are running, you'll see:
+
+Backend: http://127.0.0.1:8000
+Frontend: http://127.0.0.1:5000 ← Click this link
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
